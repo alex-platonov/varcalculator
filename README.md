@@ -15,9 +15,9 @@ The Parametric Method for calculating Value-at-Risk (VaR) is based on statistica
 The Monte Carlo Simulation method for calculating Value-at-Risk (VaR) involves generating a large number of possible future price scenarios based on random sampling from the assumed distribution of asset returns. This method is highly flexible and can accommodate complex distributions, correlations, and non-linear relationships between assets. By simulating a broad range of potential outcomes, Monte Carlo Simulation provides a more comprehensive view of potential risk, especially in cases where market behavior deviates from normality. However, it is computationally intensive and requires careful selection of the input parameters to ensure accurate results.
 
 # Modules needed
-- yfinance: the venerable one to get all the necessary financial histo;
-- numpy: for all the numbers crunching
-- matplotlib: for catchu gaphics
+- `yfinance`: the venerable one to get all the necessary financial histo;
+- `numpy`: for all the numbers crunching;
+- `matplotlib`: for the catchy graphics;
 
 # How to Use:
 Initialize the VaR class with the following parameters:
