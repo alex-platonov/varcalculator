@@ -30,7 +30,7 @@ Initialize the VaR class with the following parameters:
 
 ## Example
 
-```
+```python
 var_model = VaR(ticker=['GOOG', 'AMZN'], 
                 start_date='2020-01-01', 
                 end_date='2024-08-008', 
